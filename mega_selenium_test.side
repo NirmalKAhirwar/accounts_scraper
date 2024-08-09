@@ -1,0 +1,123 @@
+{
+  "id": "dddab981-02e4-496c-8c28-b43db3c5d7ef",
+  "version": "2.0",
+  "name": "q",
+  "url": "https://mega.nz/login",
+  "tests": [{
+    "id": "7bbb35f1-0aa9-46fa-9f9d-f8e38b37a2c4",
+    "name": "Mega Login Test Success'",
+    "commands": [{
+      "id": "593de14b-ca6f-4f3e-a4ea-1a0b5c063492",
+      "comment": "",
+      "command": "open",
+      "target": "https://mega.nz/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77ed622a-b9b5-44f8-83f0-3979ab021560",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cf22a38-ae8e-4608-91b8-ad0087a1dc45",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-name2",
+      "targets": [
+        ["id=login-name2", "id"],
+        ["name=login-name2", "name"],
+        ["css=#login-name2", "css:finder"],
+        ["xpath=//input[@id='login-name2']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "mfbgalvan@hotmail.com"
+    }, {
+      "id": "53fa4479-9594-4416-b9bd-68fb453b2c89",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-password2",
+      "targets": [
+        ["id=login-password2", "id"],
+        ["name=login-password2", "name"],
+        ["css=#login-password2", "css:finder"],
+        ["xpath=//input[@id='login-password2']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "857d8740-04ed-4a42-83fc-75bc092106b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password2",
+      "targets": [
+        ["id=login-password2", "id"],
+        ["name=login-password2", "name"],
+        ["css=#login-password2", "css:finder"],
+        ["xpath=//input[@id='login-password2']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "4877Manu"
+    }, {
+      "id": "67644c27-a1e9-4686-9faf-5068e75318df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button",
+      "targets": [
+        ["css=.login-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1878b1a4-8d2f-43cb-832f-6ba05e5b6737",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-home-before",
+      "targets": [
+        ["css=.icon-home-before", "css:finder"],
+        ["xpath=//div[@name='dashboard']", "xpath:attributes"],
+        ["xpath=//div[@id='fmholder']/div[3]/div/nav/div", "xpath:idRelative"],
+        ["xpath=//div/nav/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7abce928-8a92-4547-af85-62de26691526",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rendered .activity-status",
+      "targets": [
+        ["css=.rendered .activity-status", "css:finder"],
+        ["xpath=//div[@id='topmenu']/section/div[7]/div[8]/button/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/section/div[7]/div[8]/button/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1896d0ea-0d46-4b0d-88d3-d6bc9b9aa267",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topmenu .no-red-dot:nth-child(2) > .js-accountbtn",
+      "targets": [
+        ["css=#topmenu .no-red-dot:nth-child(2) > .js-accountbtn", "css:finder"],
+        ["xpath=//div[@id='topmenu']/section/div[7]/div[8]/div/div/div[2]/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/section/div[7]/div[8]/div/div/div[2]/ul/li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1de697e9-1d6e-49e0-9d59-7062cdd799b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7bbb35f1-0aa9-46fa-9f9d-f8e38b37a2c4"]
+  }],
+  "urls": ["https://mega.nz/", "https://mega.nz/login"],
+  "plugins": []
+}
